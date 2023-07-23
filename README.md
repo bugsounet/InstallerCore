@@ -104,7 +104,7 @@ It's now time to try it with `npm install`
 
 `npm install` will follow this rules:
  * `preinstall`: will install all dependencies (script located in installer/preinstall.sh)
- * `postinstall`: will make post-installation: minify, MagicMirror-rebuild if needed
+ * `postinstall`: will make post-installation: minify, MagicMirror-rebuild if needed (script located in installer/postinstall.sh)
 
 # Extra-Commands
 
@@ -113,4 +113,6 @@ It's now time to try it with `npm install`
 * `npm run clean`: will delete `node_modules` folder and `package-lock.json` file and will be ready for a fresh install
 * `npm run rebuild`: [available only with MagicMirror-rebuild option] will force to use MagicMirror-rebuild and reinstall the module (case of new version of MagicMirror)
 
-# This installer is used in all EXTs, Gateway, MMM-GoogleAssistant of @bugsounet
+**This installer is used in all EXTs, Gateway, MMM-GoogleAssistant of @bugsounet**
+Happy use,
+@bugsounet
