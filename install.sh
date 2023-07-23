@@ -169,6 +169,7 @@ if [ ! -f package.json ]; then
   exit 255
 else 
   cp package.json package.json.save
+  cp ~/InstallerCore/.npmrc .
 fi
 
 Installer_module="$(grep -Eo '\"name\"[^,]*' ./package.json | grep -Eo '[^:]*$' | awk  -F'\"' '{print $2}')"
