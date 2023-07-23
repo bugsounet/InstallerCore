@@ -115,6 +115,13 @@ It's now time to try it with `npm install`
 * `npm run clean`: will delete `node_modules` folder and `package-lock.json` file and will be ready for a fresh install
 * `npm run rebuild`: [available only with MagicMirror-rebuild option] will force to use MagicMirror-rebuild and reinstall the module (case of new version of MagicMirror)
 
+# update InstallerCore
+You can update this tool with
+```sh
+cd ~/InstallerCore
+git pull
+```
+
 **This installer is used in all EXTs, Gateway, MMM-GoogleAssistant of @bugsounet**<br>
 Happy use,<br>
 @bugsounet
