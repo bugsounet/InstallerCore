@@ -98,6 +98,8 @@ Press [Enter] to continue
 
 Your module installer is now installed!
 
+/!\ don't forget to commit before use `npm install` because it will minify all sources if you have set this option!
+/!\ don't publish minified sources
 It's now time to try it with `npm install`
 
 # Installer life cyle
